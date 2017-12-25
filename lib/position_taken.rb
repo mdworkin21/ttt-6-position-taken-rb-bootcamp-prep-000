@@ -7,7 +7,5 @@ def position_taken?(array, index)
   elsif array[index] == "X" || "O"
     return true
 
-
-
   end
 end
