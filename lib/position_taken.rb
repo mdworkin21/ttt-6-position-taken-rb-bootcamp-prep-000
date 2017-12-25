@@ -4,6 +4,10 @@ def position_taken?(array, index)
   if array[index] == " " || "" || nil
     return false
 
+  elsif array[index] == "X" || "O"
+    return true
+
+
 
   end
 end
